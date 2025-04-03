@@ -1,12 +1,12 @@
 #ifndef DS18B20_CONFIG_HPP
 #define DS18B20_CONFIG_HPP
 
-#include "../utility/ow_device.hpp"
+#include "ow_device.hpp"
 #include <cstdint>
 
 namespace DS18B20 {
 
-    using OWDevice = Utility::OWDevice;
+    using OWDevice = ESP32_Utility::OWDevice;
 
     enum struct DevAddress : std::uint64_t {
         ADDRESS1 = 0x6a01191ee2ef3428,

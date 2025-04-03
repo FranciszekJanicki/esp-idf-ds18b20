@@ -7,5 +7,5 @@ idf_component_register(
     REQUIRES 
         driver
         freertos
-        utility
+        esp32_utility
 )
