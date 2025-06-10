@@ -1,11 +1,9 @@
 idf_component_register(
     SRCS
-        "ds18b20.cpp"
-        "ds18b20_task.cpp"
+        "ds18b20.c"
     INCLUDE_DIRS
         "."
     REQUIRES 
         driver
         freertos
-        esp32_utility
 )
