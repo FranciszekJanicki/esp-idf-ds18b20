@@ -4,7 +4,7 @@ IDF := idf.py
 PORT := /dev/ttyUSB0
 ESP_IDF_TARGET ?= esp32s3
 
-PROJECT_NAME ?= devcontainer-esp-idf-clean
+PROJECT_NAME ?= project
 
 PROJECT_DIR := $(shell pwd)
 MAIN_DIR := $(PROJECT_DIR)/main
